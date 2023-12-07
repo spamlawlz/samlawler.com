@@ -1,0 +1,29 @@
+baseURL = 'https://samlawler.com/'
+languageCode = 'en-us'
+title = 'Sam Lawler'
+theme = 'relearn'
+
+[params]
+author.name = "Sam Lawler"
+description = "Sam Lawler's personal website and blog"
+# Hide Next and Previous navigation buttons.
+# Default: false
+# If the navigation buttons are hidden, also the keyboard shortcuts are
+# disabled.
+# I may reenable this if I make the site more geared towards documentation and learning
+disableNextPrev = true
+disableLandingPageButton = true
+alwaysopen = true
+collapsibleMenu = true
+
+# Hide heading above the shortcut menu.
+# Default: false
+# The title for the heading can be overwritten in your i18n files. See Hugo's
+# documentation how to do this.
+# I don't see any difference, may try again once I have more content
+disableShortcutsTitle = false
+disableRootBreadcrumb = true
+
+# For search functionality
+[outputs]
+home = ["HTML", "RSS", "SEARCH"]
