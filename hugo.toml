@@ -1,7 +1,8 @@
 baseURL = 'https://samlawler.com/'
 languageCode = 'en-us'
 title = 'Sam Lawler'
-theme = 'relearn'
+theme = "relearn"
+enableInlineShortcodes = true
 
 [params]
 author.name = "Sam Lawler"
@@ -38,3 +39,9 @@ weight = 10
 name = "<i class='fab fa-fw fa-linkedin'></i> LinkedIn"
 url = "https://www.linkedin.com/in/samlawler/"
 weight = 11
+
+[deployment]
+
+[[deployment.targets]]
+name = "s3"
+URL = "s3://samlawler.com?region=us-west-2"
