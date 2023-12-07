@@ -27,3 +27,14 @@ disableRootBreadcrumb = true
 # For search functionality
 [outputs]
 home = ["HTML", "RSS", "SEARCH"]
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/spamlawlz"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-linkedin'></i> LinkedIn"
+url = "https://www.linkedin.com/in/samlawler/"
+weight = 11
